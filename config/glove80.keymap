@@ -136,12 +136,12 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                       &trans                    &trans                     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans                                                    &trans    &trans                    &trans                     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans                                                    &trans    &trans                    &trans                     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &kp F13  &trans                                                    &kp LEFT  &kp DOWN                  &kp UP                     &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans   &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans                    &trans                     &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans           &trans  &trans  &trans    &trans  &trans  &trans            &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans     &trans  &trans
+&trans  &trans  &trans                 &trans  &trans                                                                      &trans                    &trans                     &trans     &trans  &trans
+&trans  &trans  &trans                 &trans  &trans  &trans                                                    &trans    &trans                    &trans                     &trans     &trans  &trans
+&trans  &trans  &trans                 &trans  &trans  &trans                                                    &trans    &trans                    &trans                     &trans     &trans  &trans
+&trans  &trans  &kp LS(LA(LC(LG(S))))  &trans  &trans  &trans                                                    &kp LEFT  &kp DOWN                  &kp UP                     &kp RIGHT  &trans  &trans
+&trans  &trans  &trans                 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans    &trans                    &kp F13                    &trans     &trans  &trans
+&trans  &trans  &trans                 &trans  &trans          &trans  &trans  &trans    &trans  &trans  &trans            &kp LS(LG(LEFT_BRACKET))  &kp LS(LG(RIGHT_BRACKET))  &trans     &trans  &trans
             >;
         };
     };
